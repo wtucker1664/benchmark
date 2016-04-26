@@ -1,0 +1,25 @@
+{
+    "name": "wtucker1664/benchmark",
+    "description": "Benchmark tools",
+    "type": "library",
+    "require": {
+        "php": "5.5.30"
+    },
+    "require-dev":{
+    	"codeception/codeception": "^2.1",
+        "codeception/verify": "^0.3.0",
+        "codeception/specify": "^0.4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Warren Tucker",
+            "email": "wtucker1664@me.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"wtucker1664\\Benchmark\\": "src"
+    	}
+    }
+}
